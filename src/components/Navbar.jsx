@@ -56,6 +56,13 @@ const Navbar = () => {
               >
                 Admin
               </Link>
+              <Link
+                href="/addDestination"
+                className="hover:text-sky-500"
+                onClick={() => setIsOpen(false)}
+              >
+                Add Destination
+              </Link>
             </div>
 
             {/* Right Menu */}
@@ -131,6 +138,13 @@ const Navbar = () => {
                 onClick={() => setIsOpen(false)}
               >
                 Admin
+              </Link>
+              <Link
+                href="/addDestination"
+                className="hover:text-sky-500"
+                onClick={() => setIsOpen(false)}
+              >
+                Add Destination
               </Link>
 
               <hr />

@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-black text-gray-400 px-6 md:px-16 py-16">
+    <footer className="bg-black text-gray-400 px-6 md:px-16 py-16 mt-16">
       <div className="max-w-7xl mx-auto">
         <div className="mb-12">
           <h1 className="text-6xl md:text-7xl font-bold text-white">
@@ -20,11 +20,11 @@ const Footer = () => {
               Subscribe for exclusive travel deals and inspiration.
             </p>
 
-            <div className="flex items-center bg-gray-800 px-4 py-3">
+            <div className="flex items-center bg-gray-100 px-4 py-3">
               <input
                 type="email"
                 placeholder="Enter email"
-                className="bg-transparent outline-none flex-1 text-sm"
+                className=" flex-1 text-sm text-black"
               />
               <span className="text-white text-lg">↗</span>
             </div>
